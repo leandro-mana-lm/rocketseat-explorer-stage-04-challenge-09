@@ -36,8 +36,6 @@ const runOperations = () => {
     let result = action();
     let message = `A ${name} dos dois números é: ${result}.`;
 
-    console.log(message);
-
     if (key === 'sum') {
       if (result % 2 === 0) message += ' É par.';
     }
